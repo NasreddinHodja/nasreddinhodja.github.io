@@ -15,59 +15,60 @@ html {
     background-color: black;
     color: white;
     padding: 10px;
-    /* text-align: center; */
 }
 
 body {
     font-family: 'Source Code Pro', monospace;
 }
 
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 170px;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+
+.sidebar a {
+    display: block;
+    margin: 0;
+    /* padding: 16px; */
+    text-decoration: none;
+    /* text- */
+    text-align: right;
+}
+
+.sidebar a p > span {
+    background-color: red;
+    color: black;
+    padding: 0 6px 0 6px;
+}
+
 .main {
-}
-
-h1 {
-}
-
-h2 {
-}
-
-h3 {
-}
-
-.figure {
+    overflow-wrap: break-word;
+    margin-left: 180px;
+    padding: 0 30px 0 20px;
 }
 
 img {
-    /* width: auto; */
-    max-width: 100%;
+    width: 100%;
 }
 
-a {
-}
-
-a:visited {
-}
-
-a:hover {
-}
-
-table {
-}
-
-hr {
-}
-
-th {
-}
-
-td {
-}
-
-code {
-}
-
-canvas {
-}
-
-#bejeweled {
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  .main {margin-left: 0;}
 }
