@@ -30,13 +30,13 @@ const items = [
       </div>
     </div>
     <div class="flex flex-row w-full justify-between">
-      <div class="absolute -inset-x-4 flex justify-between w-full">
+      <div v-for="(item, index) in items" :key="index" @click="router.push(item.link)">
+        {{ item.title }}
+      </div>
+      <div class="absolute -inset-x-4 -z-[1] flex justify-between w-full">
         <div v-for="(item, index) in items" :key="index" class="w-full">
           <div v-if="index > 0">｜</div>
         </div>
-      </div>
-      <div v-for="(item, index) in items" :key="index" @click="router.push(item.link)">
-        {{ item.title }}
       </div>
     </div>
   </div>
