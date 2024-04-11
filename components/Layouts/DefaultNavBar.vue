@@ -19,7 +19,7 @@ const items = [
 
 <template>
   <div
-    class="flex w-full h-40 bg-black text-white gap-4 text-2xl items-end justify-between px-40"
+    class="flex w-full h-40 bg-black text-white gap-4 text-2xl font-bold items-end justify-between px-40"
   >
     <div @click="router.push('/')" class="text-4xl">S.E.E.D.</div>
     <div class="flex gap-4 flex-row">
