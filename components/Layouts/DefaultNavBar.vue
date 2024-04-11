@@ -30,7 +30,7 @@ const items = [
         <div @click="router.push(item.link)">{{ item.title }}</div>
       </div>
     </div>
-    <div @click="router.push('/')">
+    <div @click="router.push('/')" class="min-w-40">
       <img src="@/assets/img/logo_singularity.png" class="w-40" />
     </div>
   </div>

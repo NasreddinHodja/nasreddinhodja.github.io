@@ -19,7 +19,7 @@ const items = [
 </script>
 
 <template>
-  <div class="px-8 pt-6 h-26 z-10 text-white flex flex-col gap-4">
+  <div class="pt-6 px-6 h-26 z-10 text-white flex flex-col gap-4">
     <div
       class="flex w-full text-2xl font-bold items-end justify-between"
       :class="{ 'bg-black': route.path !== '/' }"
@@ -30,24 +30,13 @@ const items = [
       </div>
     </div>
     <div class="flex flex-row w-full justify-between">
-      <div
-        v-for="(item, index) in items"
-        key="index"
-        class="flex grow"
-        :class="{ 'border-l': index !== 0 }"
-      >
-        <!-- <div v-if="index > 0">｜</div> -->
-        <div
-          @click="router.push(item.link)"
-          class="flex grow"
-          :class="{
-            'justify-start': index === 0,
-            'justify-center': index > 0 && index < items.length - 1,
-            'justify-end': index === items.length - 1
-          }"
-        >
-          {{ item.title }}
+      <div class="absolute -inset-x-4 flex justify-between w-full">
+        <div v-for="(item, index) in items" :key="index" class="w-full">
+          <div v-if="index > 0">｜</div>
         </div>
+      </div>
+      <div v-for="(item, index) in items" :key="index" @click="router.push(item.link)">
+        {{ item.title }}
       </div>
     </div>
   </div>
