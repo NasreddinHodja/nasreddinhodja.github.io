@@ -1,4 +1,6 @@
 <template>
-  <div><LayoutsDefaultNavBar></LayoutsDefaultNavBar></div>
-  <slot></slot>
+  <div>
+    <div><LayoutsDefaultNavBar></LayoutsDefaultNavBar></div>
+    <slot></slot>
+  </div>
 </template>
