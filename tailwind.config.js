@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        green: '#aed795'
+      },
       fontFamily: {
         mono: ['Roboto', 'sans-serif']
       }

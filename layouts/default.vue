@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="h-screen w-screen flex flex-col">
     <div class="hidden md:block"><LayoutsDefaultNavBar></LayoutsDefaultNavBar></div>
     <div class="md:hidden"><LayoutsMobileNavBar></LayoutsMobileNavBar></div>
-    <slot></slot>
+    <div class="grow"><slot></slot></div>
   </div>
 </template>

@@ -20,10 +20,10 @@ const items = [
 
 <template>
   <div
-    class="flex w-full h-40 text-white gap-4 text-2xl font-extrabold items-end justify-between px-40 z-10"
+    class="sticky top-0 flex w-full h-40 text-white gap-4 text-4xl font-extrabold items-end justify-between px-40 z-10 pb-4"
     :class="{ 'bg-black': route.path !== '/' }"
   >
-    <div @click="router.push('/')" class="text-4xl">S.E.E.D.</div>
+    <div @click="router.push('/')" class="text-6xl">S.E.E.D.</div>
     <div class="flex gap-4 flex-row">
       <div v-for="(item, index) in items" key="index" class="flex gap-4">
         <div v-if="index > 0">｜</div>
