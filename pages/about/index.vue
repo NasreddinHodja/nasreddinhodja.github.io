@@ -4,7 +4,7 @@ const router = useRouter()
 
 <template>
   <div class="w-full h-full flex md:overflow-hidden relative overflow-x-hidden">
-    <video autoplay muted loop class="absolute h-full max-w-none">
+    <video autoplay muted loop class="absolute w-full max-w-none">
       <source src="@/assets/img/about_bg.webm" type="video/mp4" />
     </video>
 
