@@ -33,7 +33,7 @@ const items = [
       <div v-for="(item, index) in items" :key="index" @click="router.push(item.link)">
         {{ item.title }}
       </div>
-      <div class="absolute -inset-x-4 -z-0 flex justify-between w-full">
+      <div class="absolute -inset-x-4 -z-[1] flex justify-between w-full">
         <div v-for="(item, index) in items" :key="index" class="w-full">
           <div v-if="index > 0">｜</div>
         </div>
