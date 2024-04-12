@@ -16,7 +16,6 @@ const items = [
     link: '/methods'
   }
 ]
-console.log('route', ['/', '/about'].includes(route.path))
 </script>
 
 <template>

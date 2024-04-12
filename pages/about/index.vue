@@ -4,13 +4,15 @@ const router = useRouter()
 
 <template>
   <div class="w-full h-full flex md:overflow-hidden relative overflow-x-hidden">
-    <video autoplay muted loop class="absolute w-full max-w-none">
+    <video autoplay muted loop class="absolute w-auto min-w-full min-h-full max-w-none">
       <source src="@/assets/img/about_bg.webm" type="video/mp4" />
     </video>
 
-    <div class="flex flex-col md:flex-row w-full h-full z-10">
-      <div class="md:w-1/2 flex flex-col md:gap-20 md:p-20">
-        <div class="flex flex-col text-white p-2 gap-4">
+    <div
+      class="flex flex-col md:flex-row w-full h-full z-10 pt-10 gap-10 px-6 md:px-40 md:gap-20 md:pt-20"
+    >
+      <div class="md:w-1/2 flex flex-col gap-10 md:gap-20">
+        <div class="flex flex-col text-white gap-4">
           <div class="flex">
             <h1 class="text-green text-4xl bg-black font-bold">Who are we</h1>
           </div>
@@ -21,10 +23,10 @@ const router = useRouter()
             NFT and IRL.
           </p>
         </div>
-        <div @click="router.push('/about/founding_members')" class="flex p-2">
+        <div @click="router.push('/about/founding_members')" class="flex">
           <h1 class="text-green text-4xl bg-black font-bold">Founding members</h1>
         </div>
-        <div class="flex flex-col gap-4 p-2">
+        <div class="flex flex-col gap-4">
           <div class="flex">
             <h1 class="text-green text-4xl bg-black font-bold">Contact us</h1>
           </div>
@@ -60,8 +62,8 @@ const router = useRouter()
           </div>
         </div>
       </div>
-      <div class="md:w-1/2 flex flex-col md:p-20">
-        <div class="flex flex-col text-white gap-4 p-2">
+      <div class="md:w-1/2 flex flex-col pt-6">
+        <div class="flex flex-col text-white gap-4">
           <div class="flex">
             <h1 class="text-green text-4xl bg-black font-bold">S.E.E.D. Philosophy</h1>
           </div>
