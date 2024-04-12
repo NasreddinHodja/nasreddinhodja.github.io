@@ -23,7 +23,7 @@ const items = [
     class="pt-6 px-6 h-26 z-10 text-white flex flex-col gap-3 font-bold pb-2"
     :class="{ 'bg-black': !['/'].includes(route.path) }"
   >
-    <div class="flex w-full text-2xl font-bold items-end justify-between">
+    <div class="flex w-full text-4xl font-bold items-end justify-between">
       <div @click="router.push('/')" class="flex">S.E.E.D.</div>
       <div @click="router.push('/')">
         <img src="@/assets/img/logo_singularity.png" class="w-24 pb-1" />
