@@ -11,7 +11,12 @@ const choices = [
   <div
     class="w-full h-full flex bg-black text-white font-title flex-col items-center justify-center"
   >
-    <div v-for="choice in choices" :key="choice.name" @click="router.push(choice.link)">
+    <div
+      v-for="choice in choices"
+      :key="choice.name"
+      @click="router.push(choice.link)"
+      class="cursor-pointer"
+    >
       {{ choice.name }}
     </div>
   </div>

@@ -23,7 +23,7 @@ const router = useRouter()
             NFT and IRL.
           </p>
         </div>
-        <div @click="router.push('/about/founding_members')" class="flex">
+        <div @click="router.push('/about/founding_members')" class="flex cursor-pointer">
           <h1 class="text-green text-4xl bg-black font-bold font-tilte">
             Founding members
           </h1>
