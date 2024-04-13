@@ -245,7 +245,7 @@ function getImgUrl(img: string) {
     <div
       class="w-full md:max-w-[1200px] m-auto relative flex flex-col pb-20 md:pb-0 md:max-h-[3000px] flex-wrap items-center content-center gap-2"
     >
-      <div v-for="piece in pieces" class="w-full">
+      <div v-for="piece in pieces" class="w-full md:w-[400px]">
         <a class="relative w-full" :href="piece.link" target="_blank">
           <div
             class="absolute top-5 left-1.5 text-white px-1 font-title font-bold border-2 z-10"

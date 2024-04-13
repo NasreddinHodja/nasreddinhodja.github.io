@@ -9,7 +9,7 @@ const choices = [
 
 <template>
   <div
-    class="w-full h-full flex bg-black text-white font-bold font-title flex-col items-center justify-center text-4xl"
+    class="w-full h-full flex bg-black text-white font-bold font-title flex-col items-center justify-center text-4xl px-6"
   >
     <div class="flex flex-col gap-8">
       <div
