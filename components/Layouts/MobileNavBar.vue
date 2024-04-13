@@ -20,12 +20,12 @@ const items = [
 
 <template>
   <div
-    class="pt-6 px-6 h-26 z-10 text-white flex flex-col gap-3 font-bold pb-2"
+    class="pt-6 px-6 h-26 z-10 text-white flex flex-col gap-3 font-bold pb-2 font-title"
     :class="{ 'bg-black': !['/'].includes(route.path) }"
   >
     <div class="flex w-full text-4xl font-bold items-end justify-between">
       <div @click="router.push('/')" class="flex">S.E.E.D.</div>
-      <div @click="router.push('/')">
+      <div @click="router.push('/')" class="flex">
         <img src="@/assets/img/logo_singularity.png" class="w-24 pb-1" />
       </div>
     </div>
@@ -39,7 +39,7 @@ const items = [
         {{ item.title }}
       </div>
       <div class="absolute -inset-x-4 z-0 flex justify-between w-full">
-        <div v-for="(item, index) in items" :key="index" class="w-full text-white">
+        <div v-for="(item, index) in items" :key="index" class="w-full text-white flex">
           <div v-if="index > 0">｜</div>
         </div>
       </div>
