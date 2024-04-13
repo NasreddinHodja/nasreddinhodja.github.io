@@ -184,7 +184,7 @@ function getImgUrl(img: string) {
             <a
               href="https://zora.co/collect/zora:0x38045fbf52060c88dc61ea3b5972865ea1316a72/2?referrer=0x52974E8f4BD9C71E3905bd90EFa009e209125e32"
               target="_blank"
-              class="border-l-2 pl-3 mt-2 border-green text-xl"
+              class="border-l-2 pl-3 mt-2 border-green text-xs md:text-xl"
             >
               Welcome To S.E.E.D. Experiments Laborathory
               <sub>(click for HD)</sub>
