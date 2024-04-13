@@ -14,7 +14,7 @@ const router = useRouter()
       <div class="md:w-1/2 flex flex-col gap-10 md:gap-20">
         <div class="flex flex-col text-white gap-4">
           <div class="flex">
-            <h1 class="text-green text-4xl bg-black font-bold">Who are we</h1>
+            <h1 class="text-green text-4xl bg-black font-bold font-tilte">Who are we</h1>
           </div>
           <p class="bg-black text-xl">
             S.E.E.D_dao is a cross-disciplinary collective of web3 artists conceiving
@@ -24,13 +24,15 @@ const router = useRouter()
           </p>
         </div>
         <div @click="router.push('/about/founding_members')" class="flex">
-          <h1 class="text-green text-4xl bg-black font-bold">Founding members</h1>
+          <h1 class="text-green text-4xl bg-black font-bold font-tilte">
+            Founding members
+          </h1>
         </div>
         <div class="flex flex-col gap-4">
           <div class="flex">
-            <h1 class="text-green text-4xl bg-black font-bold">Contact us</h1>
+            <h1 class="text-green text-4xl bg-black font-bold font-tilte">Contact us</h1>
           </div>
-          <div class="bg-black text-white font-bold">
+          <div class="bg-black text-white font-bold font-tilte">
             <p>
               <a
                 href="https://twitter.com/SEED_dao"
@@ -65,7 +67,9 @@ const router = useRouter()
       <div class="md:w-1/2 flex flex-col pt-6">
         <div class="flex flex-col text-white gap-4">
           <div class="flex">
-            <h1 class="text-green text-4xl bg-black font-bold">S.E.E.D. Philosophy</h1>
+            <h1 class="text-green text-4xl bg-black font-bold font-tilte">
+              S.E.E.D. Philosophy
+            </h1>
           </div>
           <p class="bg-black text-xl">
             S.E.E.D: Experimental Singularity In Daydream. Conceived as a DAO and an

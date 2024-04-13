@@ -14,7 +14,8 @@ export default {
         green: '#aed795'
       },
       fontFamily: {
-        mono: ['Roboto', 'sans-serif']
+        base: ['Roboto'],
+        title: ['Grotesk']
       }
     }
   },

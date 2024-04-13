@@ -20,7 +20,7 @@ const items = [
 
 <template>
   <div
-    class="sticky top-0 flex w-full h-40 text-white gap-4 text-4xl font-extrabold items-end justify-between px-40 z-10 pb-4"
+    class="sticky top-0 flex w-full h-40 text-white font-title gap-4 text-4xl font-extrabold items-end justify-between px-40 z-10 pb-4"
     :class="{ 'bg-black': route.path !== '/' }"
   >
     <div @click="router.push('/')" class="text-6xl">S.E.E.D.</div>

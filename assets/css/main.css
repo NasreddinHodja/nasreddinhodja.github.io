@@ -15,7 +15,12 @@
       U+2215, U+FEFF, U+FFFD;
   }
 
-  html {
-    font-family: 'Roboto';
+  @font-face {
+    font-family: 'Grotesk';
+    font-style: normal;
+    font-weight: 300 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/spacegrotesk/v16/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2)
+      format('woff2');
   }
 }

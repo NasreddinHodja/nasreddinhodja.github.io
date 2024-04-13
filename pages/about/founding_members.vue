@@ -36,7 +36,7 @@ const members = [
 </script>
 
 <template>
-  <div class="w-full h-full bg-black flex items-center justify-center gap-5">
+  <div class="w-full h-full bg-black font-title flex items-center justify-center gap-5">
     <div>
       <div v-for="member in members" :key="member.name">
         <a :href="member.link" class="text-green text-3xl">{{ member.name }}</a>
