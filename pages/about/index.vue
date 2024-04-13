@@ -44,11 +44,11 @@ const router = useRouter()
             </p>
             <p>
               <a
-                href="https://www.instagram.com/s.e.e.d._/"
+                href="https://www.instagram.com/seed.computer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {inst} @s.e.e.d._
+                {inst} @seed.computer
               </a>
             </p>
             <p>{mail} s.e.e.d_dao@protonmail.com</p>
@@ -64,7 +64,7 @@ const router = useRouter()
           </div>
         </div>
       </div>
-      <div class="md:w-1/2 flex flex-col pt-6">
+      <div class="md:w-1/2 flex flex-col pb-20 md:pb-0">
         <div class="flex flex-col text-white gap-4">
           <div class="flex">
             <h1 class="text-green text-4xl bg-black font-bold font-tilte">
