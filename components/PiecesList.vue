@@ -39,7 +39,7 @@ const pieces = [
 ];
 </script>
 <template>
-  <div class="bg-black/90 p-4 flex flex-col gap-4">
+  <div class="bg-black/90 md:p-10 p-4 flex flex-col gap-4">
     <div class="md:text-xl">Pieces</div>
     <div class="grid lg:grid-cols-2 gap-10">
       <div v-for="piece in pieces" :key="piece.url">
