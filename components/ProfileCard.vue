@@ -14,7 +14,7 @@ const contacts = [
   },
   {
     label: "twitter",
-    url: "https://www.instagram.com/nasrezine/",
+    url: "https://x.com/nasrezine",
   },
   {
     label: "zora",
