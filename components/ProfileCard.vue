@@ -1,4 +1,11 @@
 <script setup lang="ts">
+const name = "NASREZINE";
+
+const description =
+  "\
+Software engineer and artist. I build things with code, sound, and \
+visuals — driven by curiosity and the joy of creating.";
+
 const contacts = [
   {
     label: "e-mail",
@@ -33,10 +40,9 @@ const contacts = [
   >
     <ProfileImage />
     <div class="flex flex-col md:gap-4 gap-2 md:w-auto">
-      <div class="md:text-xl text-base">NASREZINE</div>
+      <div class="md:text-xl text-base">{{ name }}</div>
       <div class="md:text-base text-sm">
-        Software engineer and artist. I build things with code, sound, and
-        visuals — driven by curiosity and the joy of creating.
+        {{ description }}
       </div>
       <div class="flex gap-x-4 gap-y-1 md:text-base text-sm flex-wrap">
         <div v-for="contact in contacts" :ke="contact.label">

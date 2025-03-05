@@ -20,12 +20,6 @@ const pieces = [
     url: "https://postimg.cc/py7YqxtJ",
     image: "pieces/nao_pega_nao.png",
   },
-
-  {
-    title: "4nd7roxnas.png",
-    url: "",
-    image: "pieces/4nd7roxnas.png",
-  },
   {
     title: "20x_por_dia.png",
     url: "https://postimg.cc/t1PjWCs7",
@@ -35,6 +29,61 @@ const pieces = [
     title: "hithithit.png",
     url: "https://postimg.cc/0r641PZF",
     image: "pieces/hithithit_insta.png",
+  },
+  {
+    title: "blowing_early.png",
+    url: "",
+    image: "pieces/blowing_early.png",
+  },
+  {
+    title: "ela_nao_pode.png",
+    url: "",
+    image: "pieces/ela_nao_pode.png",
+  },
+  {
+    title: "get_right.png",
+    url: "",
+    image: "pieces/get_right.png",
+  },
+  {
+    title: "heartbreak_welkin_pain_welkin.png",
+    url: "",
+    image: "pieces/heartbreak_welkin_pain_welkin.png",
+  },
+  {
+    title: "lil_boi.png",
+    url: "",
+    image: "pieces/lil_boi.png",
+  },
+  {
+    title: "morreria_de_tanto_penar.png",
+    url: "",
+    image: "pieces/morreria_de_tanto_penar.png",
+  },
+  {
+    title: "mybitchhinatathick.png",
+    url: "",
+    image: "pieces/mybitchhinatathick.png",
+  },
+  {
+    title: "4nd7roxnas.png",
+    url: "",
+    image: "pieces/4nd7roxnas.png",
+  },
+  {
+    title: "untitled_0041.png",
+    url: "",
+    image: "pieces/untitled_0041.png",
+  },
+  {
+    title: "untitled_0049.png",
+    url: "",
+    image: "pieces/untitled_0049.png",
+  },
+  {
+    title: "untitled_0057.png",
+    url: "",
+    image: "pieces/untitled_0057.png",
   },
 ];
 </script>
