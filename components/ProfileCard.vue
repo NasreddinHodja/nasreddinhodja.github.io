@@ -26,6 +26,7 @@ const contacts = [
   },
 ];
 </script>
+
 <template>
   <div
     class="flex flex-row md:gap-10 gap-4 bg-black/90 items-center md:p-10 p-4"

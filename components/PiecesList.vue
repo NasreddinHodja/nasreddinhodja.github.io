@@ -38,6 +38,7 @@ const pieces = [
   },
 ];
 </script>
+
 <template>
   <div class="bg-black/90 md:p-10 p-4 flex flex-col gap-4">
     <div class="md:text-xl">Pieces</div>
