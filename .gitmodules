@@ -1,0 +1,3 @@
+[submodule "pandeiro"]
+	path = pandeiro
+	url = https://github.com/NasreddinHodja/pandeiro.git
